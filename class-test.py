@@ -21,3 +21,5 @@ for i in range (1,5):
     mark.regfunct("test")
     
 print("is this working?")
+
+print("Test additional text")
