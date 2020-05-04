@@ -1,27 +1,26 @@
-class reg:
-    def __init__(self,name,age,country):
-        self.name=name
-        self.age=2020-age
-        self.country=country
-    
-    def regfunct(self, input):
-        print("{} {} {} {}".format(input, self.name, self.age, self.country))
+class device:
+    pass
 
-for i in range (1,5):
-    x=input('Enter name: ')
-    y=int(input('Enter DOB:'))
-    z=input('Enter country:')
+def fileread():
 
-    mark="mark"+str(i)
-    print(type(mark))
-    
-    mark=reg(x,y,z)
-    print(type(mark))
-  
-    mark.regfunct("test")
-    
-print("is this working?")
+    fileh=open("c:/Users/randa/Workspace-test/.venv/working/data.txt","r")
 
-print("Test additional text")
+    line = fileh.readline()
 
-print ("another test")
+    while line:
+
+        list=line.split(":")
+
+        line=fileh.readline()
+
+        if line[0].device():
+            line[0].device(}
+        
+        
+
+        # print(list)
+
+    fileh.close
+
+fileread()
+
